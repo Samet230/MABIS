@@ -1,0 +1,73 @@
+# ==============================================================================
+# MABIS / ZooID .gitignore
+# ==============================================================================
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Bytecode & Build Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# IDE & Operating System Artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# Environment Variables & Secrets
+.env
+*.key
+*.pem
+
+# Data & Datasets (Kesinlikle hariç tutulan veri ve veritabanı dosyaları)
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.raw
+*.bin
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Images (Kesinlikle hariç tutulan resim ve görsel dosyaları)
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.gif
+*.ico
+
+# Results & Runtime Logs
+results/
+logs/
+*.log
+.ipynb_checkpoints/
